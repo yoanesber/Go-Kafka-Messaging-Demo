@@ -163,6 +163,8 @@ ENV=PRODUCTION
 API_VERSION=1.0
 PORT=1000
 IS_SSL=FALSE
+FRONTEND_URL=http://localhost:3000,http://localhost:1000
+FRONTEND_URL_PRODUCTION=https://your-production-url.com
 
 # Kafka configuration
 KAFKA_BROKERS=localhost:9092

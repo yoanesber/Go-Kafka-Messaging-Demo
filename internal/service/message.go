@@ -7,9 +7,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/yoanesber/go-kafka-producer-consumer-demo/internal/entity"
-	kafkautil "github.com/yoanesber/go-kafka-producer-consumer-demo/pkg/util/kafka-util"
-	validator "github.com/yoanesber/go-kafka-producer-consumer-demo/pkg/util/validation-util"
+	"github.com/yoanesber/go-kafka-messaging-demo/internal/entity"
+	kafkautil "github.com/yoanesber/go-kafka-messaging-demo/pkg/util/kafka-util"
+	validator "github.com/yoanesber/go-kafka-messaging-demo/pkg/util/validation-util"
 )
 
 const (

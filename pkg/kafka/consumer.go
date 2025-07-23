@@ -4,8 +4,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/yoanesber/go-kafka-producer-consumer-demo/pkg/kafka/handler"
-	kafkautil "github.com/yoanesber/go-kafka-producer-consumer-demo/pkg/util/kafka-util"
+	"github.com/yoanesber/go-kafka-messaging-demo/pkg/kafka/handler"
+	kafkautil "github.com/yoanesber/go-kafka-messaging-demo/pkg/util/kafka-util"
 )
 
 const (

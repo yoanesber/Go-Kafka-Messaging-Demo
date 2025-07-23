@@ -9,7 +9,7 @@ import (
 
 	"github.com/segmentio/kafka-go"
 
-	"github.com/yoanesber/go-kafka-producer-consumer-demo/config/async"
+	"github.com/yoanesber/go-kafka-messaging-demo/config/async"
 )
 
 const (

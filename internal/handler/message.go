@@ -7,9 +7,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"gopkg.in/go-playground/validator.v9"
 
-	"github.com/yoanesber/go-kafka-producer-consumer-demo/internal/entity"
-	"github.com/yoanesber/go-kafka-producer-consumer-demo/internal/service"
-	validation "github.com/yoanesber/go-kafka-producer-consumer-demo/pkg/util/validation-util"
+	"github.com/yoanesber/go-kafka-messaging-demo/internal/entity"
+	"github.com/yoanesber/go-kafka-messaging-demo/internal/service"
+	validation "github.com/yoanesber/go-kafka-messaging-demo/pkg/util/validation-util"
 )
 
 type MessageHandler struct {

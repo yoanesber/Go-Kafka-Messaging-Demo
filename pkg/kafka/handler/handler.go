@@ -6,8 +6,8 @@ import (
 
 	"github.com/segmentio/kafka-go"
 
-	"github.com/yoanesber/go-kafka-producer-consumer-demo/internal/entity"
-	"github.com/yoanesber/go-kafka-producer-consumer-demo/internal/service"
+	"github.com/yoanesber/go-kafka-messaging-demo/internal/entity"
+	"github.com/yoanesber/go-kafka-messaging-demo/internal/service"
 )
 
 func HandleMessaging(worker string, msg kafka.Message) error {

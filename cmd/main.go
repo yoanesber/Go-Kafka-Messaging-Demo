@@ -9,10 +9,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/yoanesber/go-kafka-producer-consumer-demo/config/async"
-	kafka "github.com/yoanesber/go-kafka-producer-consumer-demo/pkg/kafka"
-	validation "github.com/yoanesber/go-kafka-producer-consumer-demo/pkg/util/validation-util"
-	"github.com/yoanesber/go-kafka-producer-consumer-demo/routes"
+	"github.com/yoanesber/go-kafka-messaging-demo/config/async"
+	kafka "github.com/yoanesber/go-kafka-messaging-demo/pkg/kafka"
+	validation "github.com/yoanesber/go-kafka-messaging-demo/pkg/util/validation-util"
+	"github.com/yoanesber/go-kafka-messaging-demo/routes"
 )
 
 var (

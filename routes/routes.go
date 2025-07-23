@@ -4,9 +4,9 @@ import (
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
 
-	"github.com/yoanesber/go-kafka-producer-consumer-demo/internal/handler"
-	"github.com/yoanesber/go-kafka-producer-consumer-demo/internal/service"
-	"github.com/yoanesber/go-kafka-producer-consumer-demo/pkg/middleware/headers"
+	"github.com/yoanesber/go-kafka-messaging-demo/internal/handler"
+	"github.com/yoanesber/go-kafka-messaging-demo/internal/service"
+	"github.com/yoanesber/go-kafka-messaging-demo/pkg/middleware/headers"
 )
 
 func SetupRouter() *gin.Engine {
